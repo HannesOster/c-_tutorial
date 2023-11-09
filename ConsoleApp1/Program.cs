@@ -14,6 +14,8 @@ namespace HalloWelt
             username = "Johannes";
 
             Console.WriteLine(username);
+            username = "Ella";
+            Console.WriteLine(username);
         }
     }
 }
