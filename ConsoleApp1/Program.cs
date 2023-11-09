@@ -11,10 +11,12 @@ namespace HalloWelt
         static void Main()
         {
             string username = "Johannes";
-            int age = 29;
-
-            Console.WriteLine(username);
-            Console.WriteLine(age);
+            byte age = 29;
+            bool human = true;
+            
+            Console.WriteLine("Name: " + username);
+            Console.WriteLine("Alter: " + age);
+            Console.WriteLine("Mensch: " + human);
         }
     }
 }
