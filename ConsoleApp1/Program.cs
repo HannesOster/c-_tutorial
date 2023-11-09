@@ -11,6 +11,9 @@ namespace HalloWelt
         static void Main()
         {
             Console.WriteLine("Hello World!");
+            Console.Write("Whats up? ");
+            Console.Write("Im Johannes");
+            Console.ReadKey();
         }
     }
 }
