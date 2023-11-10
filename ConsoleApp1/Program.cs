@@ -10,21 +10,23 @@ namespace HalloWelt
     {
         static void Main()
         {
-            int number1 = Subtrahiere(10, 3);
-            int number2 = Subtrahiere(7, 2);
-
-            Output(number1);
-            Output(number2);
-            Output(number1 + number2);
-        }
-            static int Subtrahiere(int a, int b)
+            Console.WriteLine("Wie alt bist du?");
+            
+           int age = Convert.ToInt32(Console.ReadLine());
+            bool withAdult = false;
+            if (age >=12)
             {
-                int result = a - b;
-                return result;
+                Console.WriteLine("Kauf erlaubt.");
             }
-        static void Output(int number)
-        {
-            Console.WriteLine(number);
+            else if (withAdult == true)
+            {
+                Console.WriteLine("Erwachsener dabei, kauf möglich.");
+              
+            }
+            else
+            {
+                Console.WriteLine("Kein kauf möglich");
+            }
         }
     }
 }
