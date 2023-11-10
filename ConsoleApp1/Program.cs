@@ -10,13 +10,18 @@ namespace HalloWelt
     {
         static void Main()
         {
-            string username = "Johannes";
-            byte age = 29;
-            bool human = true;
-            
-            Console.WriteLine("Name: " + username);
-            Console.WriteLine("Alter: " + age);
-            Console.WriteLine("Mensch: " + human);
+            string name;
+            int age;
+
+            Console.WriteLine("Bitte Namen eingeben:");
+            name = Console.ReadLine();
+
+            Console.WriteLine("Bitte alter eingeben:");
+            age = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Hallo " + name + ", du bist " + age + " Jahre alt.");
+                
+
         }
     }
 }
